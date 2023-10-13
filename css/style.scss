@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+
+@import "nav";
+@import "hero";
+@import "main";
+@import "binge";
+@import "mobile";
+@import "foot";
+@import "media";

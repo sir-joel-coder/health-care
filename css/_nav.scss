@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;
+    background-color: ghostwhite;
+    font-weight: bold;
+    align-items: baseline;
+    position: fixed;
+    right: 0;
+    left: 0;
+    flex-wrap: wrap;
+    z-index: 5;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+.side-nav {
+    display: flex;
+    gap: 1rem;
+}

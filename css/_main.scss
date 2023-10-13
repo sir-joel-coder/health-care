@@ -1,0 +1,56 @@
+.main-scetion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    width: 100%;
+    padding: 0 5rem;
+}
+.img-text-container {
+    display: flex;
+    width: 50%;
+    gap: 1rem;
+    img {
+        width: 12vw;
+        height: 70vh;
+        padding-left: 2rem;
+    }
+    .img-text {
+        display:flex ;
+        flex-direction: column;
+        gap: .5rem;
+        .first-text {
+            font-size: 2.5vw;
+            font-weight: bold;
+        }
+        .sec-text {
+            font-size: 2vw;
+            font-weight: bold;
+            color: #2f8be0;
+        }
+        
+    }
+    
+}
+
+.reason-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+    font-weight: bold;
+
+}
+.reason {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gainsboro;
+    .number {
+        font-weight: bold;
+        font-size: 2rem;
+        color: #e0501b;
+    }
+    .reason-text {
+        line-height: 1.8rem;
+    }
+}

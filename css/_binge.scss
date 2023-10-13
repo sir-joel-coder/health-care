@@ -1,0 +1,65 @@
+.to-do-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 8rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 600;
+    .bottom {
+        color:  #e0501b;
+    }
+}
+
+.to-do-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 23rem;
+    justify-content: space-evenly;
+}
+
+.to-do-card {
+    display: grid;
+    box-shadow: 0 10px 22px rgb(0 0 0 / 9%), 0 10px 10px rgb(0 0 0 / 9%);
+    position: relative;
+}
+.yellow-bg {
+    background-color: #ffce63;
+    position: relative;
+}
+.blue-bg {
+    background-color: #a1cdff;
+    position: relative;
+}
+.img {
+    width: 11rem;
+    position: absolute;
+    top: -6rem;
+    right:-4rem ;
+}
+.binge-text, .learn-text, .video-text {
+    margin: 1rem 0 0 1rem;
+    line-height: 1.5rem;
+    color: gainsboro;
+}
+.to-header {
+    color: black;
+    font-size: 2vw;
+    margin-bottom: 2rem;
+}
+.next  {
+    width: 1.2rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    padding: .7rem  !important;
+    border-radius: .3rem;
+    background: #ededed;
+    
+}
